@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Sedgwick+Ave+Display&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.bg{
+    background: no-repeat center/cover url('pics/pic.jpg');
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    color: rgb(255, 255, 11);
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+}
